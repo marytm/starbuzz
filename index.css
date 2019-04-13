@@ -1,0 +1,24 @@
+@import url("index.html.css");
+body{ background-color: rgba(173,109,69,1.00)}
+
+div {margin: 10 px;
+padding:0.5em}
+#header
+{
+	height: 100px;
+min-width: 500px;
+}
+
+#footer#header { background-color: rgba(132,74,13,1.00)} 
+#main #order, #menu
+{background-color: burlywood;
+clear: both;
+}
+#footer{ color: white;}
+#h2 {color: brown; }
+
+#container {
+	display: flex ;
+}
+#main {flex-grow: 2; }
+#order {flex-grow: }
